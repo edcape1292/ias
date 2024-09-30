@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos para PlayStation</title>
+    <link rel="stylesheet" href="stlyles2.css">
+    <style>
+        /* Estilo inline para centrar el contenido */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        .juegos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .juegos article {
+            background-color: #eaeaea;
+            padding: 10px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Juegos para PlayStation</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="playstation.html">Juegos para PlayStation</a></li>
+            <li><a href="xbox.html">Juegos para Xbox</a></li>
+            <li><a href="nintendo.html">Juegos para Nintendo</a></li>
+            <li><a href="pc.html">Juegos para PC</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Agregar el video aquí -->
+        <video controls>
+            <source src="psvideo.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+
+        <section class="juegos">
+            <h2>Populares</h2>
+            <article>
+                <img src="ps1.jpeg" alt="Juego 1">
+                <h3>The last of us part II</h3>
+                <p>⭐️⭐️⭐️⭐️ 4 estrellas</p>
+                <p>$59.99</p>
+                <button>Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="ps2.jpeg" alt="Juego 2">
+                <h3>Dragon Ball Z Kakarot</h3>
+                <p>⭐️⭐️⭐️⭐️⭐️ 5 estrellas</p>
+                <p>$49.99</p>
+                <button>Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="ps3.jpeg" alt="Juego 3">
+                <h3>Uncharted 4</h3>
+                <p>⭐️⭐️⭐️⭐️ 4 estrellas</p>
+                <p>$59.99</p>
+                <button>Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="ps4.jpeg" alt="Juego 4">
+                <h3>Blood Borne</h3>
+                <p>⭐️⭐️⭐️⭐️ 4 estrellas</p>
+                <p>$59.99</p>
+                <button>Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="ps5.jpeg" alt="Juego 5">
+                <h3>God of war</h3>
+                <p>⭐️⭐️⭐️⭐️ 4 estrellas</p>
+                <p>$59.99</p>
+                <button>Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="ps6.jpeg" alt="Juego 6">
+                <h3>Five night of freddys</h3>
+                <p>⭐️⭐️⭐️⭐️ 4 estrellas</p>
+                <p>$59.99</p>
+                <button>Agregar al carrito</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos Reservados 2024 | Fondo personalizado a definir.</p>
+    </footer>
+</body>
+</html>

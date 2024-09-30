@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="stlyles2.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="playstation.html">Juegos para PlayStation</a></li>
+            <li><a href="xbox.html">Juegos para Xbox</a></li>
+            <li><a href="nintendo.html">Juegos para Nintendo</a></li>
+            <li><a href="pc.html">Juegos para PC</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Tu Carrito</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="carrito-items">
+                    <!-- Aquí se agregarán dinámicamente los productos del carrito -->
+                    <tr>
+                        <td>Juego 1</td>
+                        <td>1</td>
+                        <td>$59.99</td>
+                        <td>$59.99</td>
+                    </tr>
+                    <tr>
+                        <td>Juego 2</td>
+                        <td>1</td>
+                        <td>$49.99</td>
+                        <td>$49.99</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total">
+                <h3>Total a pagar: $109.98</h3>
+            </div>
+            <div class="acciones">
+                <button>Proceder al Pago</button>
+                <button>Vaciar Carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos Reservados 2024 | Fondo personalizado a definir.</p>
+    </footer>
+
+    <script>
+        // Aquí puedes agregar lógica con JavaScript para manejar el carrito
+        // Actualización de precios, eliminación de artículos, etc.
+    </script>
+</body>
+</html>
