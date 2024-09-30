@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos para centrar el contenido */
+        header, nav, main {
+            text-align: center;
+        }
+
+        /* Centrar el contenido del menú de navegación */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Estilos para centrar las imágenes y los precios en lista */
+        .ofertas {
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+            justify-content: center; /* Centra las columnas */
+            gap: 20px; /* Espacio entre elementos */
+        }
+
+        .ofertas div {
+            text-align: center;
+            width: calc(50% - 20px); /* Ajusta el ancho para dos columnas */
+            box-sizing: border-box; /* Incluye el padding y el margen en el ancho */
+        }
+
+        /* Centrar los logos */
+        .logos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        /* Agregar algo de margen al pie de página */
+        footer {
+            margin-top: 30px;
+        }
+
+        /* Estilos para las imágenes en el header */
+        .header-images {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px; /* Espacio debajo de las imágenes */
+        }
+
+        .header-images img {
+            width: 150px; /* Ajusta el tamaño de las imágenes */
+        }
+
+        /* Estilo para el slogan */
+        .slogan {
+            font-family: 'Garamond', serif; /* Fuente de estilo medieval */
+            font-size: 24px; /* Tamaño de la fuente */
+            color: #b3650d; /* Color del texto */
+            margin-top: 10px; /* Espacio encima del slogan */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra del texto para efecto 3D */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-images">
+            <img src="dragon2.jpg" alt="Imagen izquierda">
+            <h1>Bienvenido a la Tienda de Videojuegos Dragon de Mondragon. </h2>
+            <img src="dragon1.jpg" alt="Imagen derecha">
+        </div>
+        <p class="slogan">¡Aventura y diversión en cada juego!</p> <!-- Slogan añadido -->
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="playstation.html">Juegos para PlayStation</a></li>
+            <li><a href="xbox.html">Juegos para Xbox</a></li>
+            <li><a href="nintendo.html">Juegos para Nintendo</a></li>
+            <li><a href="pc.html">Juegos para PC</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="logos">
+           
+            <img src="dr.jpg" alt="Logo de la tienda" style="width: 500px;" height="500">
+        </div>
+
+        <section>
+            <h2>Ofertas</h2>
+            <h3>¡Bienvenidos, pequeños dragones a la Tienda de Videojuegos Mondragón! </h3>
+                <h3>   Aquí encontrarán un vasto tesoro de juegos de última gama, perfectos para despertar su espíritu aventurero. Desde épicas batallas hasta emocionantes</h3>
+                        <h3>  carreras, nuestra selección está diseñada para ofrecerles horas de diversión sin fin. ¡Dejen que su imaginación vuele mientras exploran mundos fantásticos</h3>
+                                <h3>   y conquistan nuevos desafíos! Recuerden, cada compra es una nueva aventura.¡Estamos aquí para ayudarles a encontrar el juego que encenderá su chispa de dragón!</h3>
+            <div class="ofertas">
+                <div>
+                    <img src="playstation5.jpg" alt="Oferta 1" style="width: 300px;">
+                    <p>Precio: $12,999 MXN</p>
+                </div>
+                <div>
+                    <img src="xbs.jpg" alt="Oferta 2" style="width: 300px;">
+                    <p>Precio: $9,999 MXN</p>
+                </div>
+                <div>
+                    <img src="auri.jpg" alt="Oferta 3" style="width: 300px;">
+                    <p>Precio: $1,299 MXN</p>
+                </div>
+                <div>
+                    <img src="mand.jpg" alt="Oferta 4" style="width: 300px;">
+                    <p>Precio: $1,499 MXN</p>
+                </div>
+                <div>
+                    <img src="moni.jpg" alt="Oferta 5" style="width: 300px;">
+                    <p>Precio: $5,499 MXN</p>
+                </div>
+                <div>
+                    <img src="vola.jpg" alt="Oferta 6" style="width: 300px;">
+                    <p>Precio: $3,799 MXN</p>
+                </div>
+                <div>
+                    <img src="mouse.jpg" alt="Oferta 7" style="width: 300px;">
+                    <p>Precio: $799 MXN</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos Reservados 2024 | Fondo personalizado a definir.</p>
+    </footer>
+</body>
+</html>
